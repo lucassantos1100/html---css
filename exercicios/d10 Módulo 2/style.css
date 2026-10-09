@@ -1,0 +1,82 @@
+body {
+background-color: #E8E6C2;
+}
+
+header {
+    background-color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    border-radius: 3px;
+    padding: 15px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+h1.basico {
+    color: #103923;
+    text-align: left;
+    margin-left: 20px;
+}
+
+h2 {
+    color: #103923;
+    background-color: #A0EAC2;
+}
+
+h2.normal {
+    color: white;
+    background-color: #103923;
+}
+
+p {
+    color: black;
+    text-align: left;
+}
+
+p#principal {
+    color: white;
+    text-align: center;
+}
+
+p.dificil {
+    text-decoration: underline;
+    border-radius: 20px;
+}
+
+p.mudar {
+    background-color: white;
+}
+
+p.completo {
+    background-color: #103923;
+    color: white;
+    text-align: center;
+    padding: 7px;
+}
+
+a {
+    color: #8BD4AB;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+a:hover {
+    background-color: #16673C;
+}
+
+main {
+    background-color: white;
+    margin: 0px 150px;
+    padding: 1px;
+    border-radius: 1px;    
+    box-shadow: 1px 1px 0px black;
+    text-align: center;
+}
+footer {
+    background-color: white;
+    border-radius: 20px;
+    margin: 0px 150px;
+}
