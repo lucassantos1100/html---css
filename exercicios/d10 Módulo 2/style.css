@@ -1,3 +1,10 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
 background-color: #E8E6C2;
 }
@@ -34,11 +41,14 @@ h2.normal {
 p {
     color: black;
     text-align: left;
+    margin-top: 20px;
 }
 
 p#principal {
     color: white;
     text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
 }
 
 p.dificil {
@@ -60,21 +70,40 @@ p.completo {
 a {
     color: #8BD4AB;
     text-decoration: none;
-    margin-right: 15px;
+    padding: 10px;
+    font-weight: bold;
+    margin-right: 5px;
+    border-radius: 5px;
 }
 
 a:hover {
-    background-color: #16673C;
+    background-color: #17c267;
+    color: rgb(104, 250, 128);
 }
 
 main {
     background-color: white;
-    margin: 0px 150px;
+    margin: 0px auto 30px auto;
     padding: 1px;
     border-radius: 1px;    
     box-shadow: 1px 1px 0px black;
     text-align: center;
+    max-width: 800px;
+    min-width: 320px;
 }
+
+img {
+    width: 100%;
+}
+
+img.pequena {
+    width: 50%;
+}
+
+div.video {
+    margin-top: 20px;
+}
+
 footer {
     background-color: white;
     border-radius: 20px;
