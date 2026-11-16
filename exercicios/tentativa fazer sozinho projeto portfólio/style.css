@@ -5,16 +5,25 @@
     padding: 0px;
 }
 
-html, body {
+body {
     background-color: rgb(238, 235, 235);
-    width: 100vw;
-    height: 100vh;
+    box-sizing: border-box;
 }
 
 header {
     background-color: #0669E9;
     padding: 10px;
     color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+header > a {
+    color: white;
+    margin: 0px 30px;
+    display: grid;
+    grid-template: 20px 20px 20px / auto auto auto;
 }
 
 h1 {
@@ -23,11 +32,23 @@ h1 {
 }
 
 div {
-    margin: auto;
-    width: 95vw;
-    margin: 50px;
+    margin: 10px 50px;
     background-color: white;
-    margin: auto;
+    display: flex;
+    flex-flow: column wrap;
+    border-radius: 10px;
+}
+
+article.espaco {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+}
+
+
+
+article.espaco > img {
+    width: 30vw;
 }
 
 article.cinza {
@@ -35,9 +56,6 @@ article.cinza {
     margin: 10px;
     border-radius: 5px;
     font-size: 1.2em;
-    padding: 10px;
-    width:90vw;
-    margin: auto;
 }
 
 article.cinza > h6 {
@@ -65,13 +83,10 @@ article.cinza2 img, article.cinza2 p {
 
 article {
    width: 95%;
-   margin: auto;
 }
 
 article > img {
     height: 30vh;
-    display: block;
-    margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
     
@@ -79,8 +94,6 @@ article > img {
 
 article > a > img {
     height: 30vh;
-    display: block;
-    margin: auto;
     width: 90vw;
     border-radius: 10px;
 }
