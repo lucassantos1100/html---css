@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    background-color: rgb(238, 235, 235);
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    background-color: #0669E9;
+    padding: 10px;
+    color: white;
+}
+
+h1 {
+    color: #0F62C7;
+    padding-bottom: 10px;
+}
+
+div {
+    margin: auto;
+    width: 95vw;
+    margin: 50px;
+    background-color: white;
+    margin: auto;
+}
+
+article.cinza {
+    background-color: rgb(233, 232, 232);
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    padding: 10px;
+    width:90vw;
+    margin: auto;
+}
+
+article.cinza > h6 {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+article.cinza > p.azul {
+    color: #55aff0;
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+
+article.cinza2 img {
+    transition: 1s;
+}
+
+article.cinza2 img, article.cinza2 p {
+    background-color: rgb(233, 232, 232);
+    border-radius: 2px;
+    padding: 2px;
+    width: 100%;
+    font-size: 1.2em;
+}
+
+article {
+   width: 95%;
+   margin: auto;
+}
+
+article > img {
+    height: 30vh;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+article > a > img {
+    height: 30vh;
+    display: block;
+    margin: auto;
+    width: 90vw;
+    border-radius: 10px;
+}
+
+article p.final {
+    margin-bottom: 10px;
+}
+
+article > p {
+    padding: 5px;
+}
+
+footer  a {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    padding: 10px;
+    background-color: #0669E9;
+    color: white;
+}
